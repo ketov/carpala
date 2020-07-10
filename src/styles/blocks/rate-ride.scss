@@ -1,0 +1,61 @@
+.rate-ride{
+    &__row{
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 10px;
+        .rate-ride__col{
+            &:last-child{
+                margin-left: 14px;
+            }
+        }
+    }
+    img{
+        margin-top: 1px;
+    }
+    .path{
+        color: #989898;
+        font-size: 75%;
+        line-height: 140%;
+        margin-top: 2px;
+    }
+    label{
+        display: block;
+        font-size: 80%;
+        margin-left: 5px;
+        position: relative;
+        &:before{
+            color: #FF0000;
+            content: '*';
+            position: absolute;
+            left: -6px;
+            font-size: 75%;
+        }
+    }
+    textarea{
+        background: $white;
+        border: none;
+        border-radius: 5px;
+        display: block;
+        min-height: 130px;
+        outline: none!important;
+        padding: 6px 0 0 12px;
+        width: 100%;
+    }
+    button{
+        float: right;
+        margin-top: 10px;
+    }
+    p{
+        color: $black;
+        margin: 0;
+    }
+    .message{
+        background: #e3a5a5;
+        border-radius: 5px;
+        color: #950505;
+        font-size: 75%;
+        line-height: 140%;
+        margin-bottom: 12px;
+        padding: 14px 0 14px 20px;
+    }
+}

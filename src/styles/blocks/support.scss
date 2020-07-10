@@ -1,0 +1,18 @@
+.support{
+    a{
+        border-bottom: 1px solid rgba(0,0,0,.67);
+        color: rgba(0,0,0,.67);
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
+        padding: 6px 0 6px 0;
+        &:hover img{
+            right: -5px;
+        }
+        img{
+            position: relative;
+            right: 0;
+            transition: 0.2s ease;
+        }
+    }
+}

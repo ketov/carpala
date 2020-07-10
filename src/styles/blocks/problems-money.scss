@@ -1,0 +1,42 @@
+.problems-money{
+    h2{
+        margin-bottom: 18px;
+    }
+    p{
+        margin-bottom: 16px;
+    }
+    label{
+        display: block;
+        font-size: 80%;
+        margin-left: 5px;
+        position: relative;
+        &:before{
+            color: #FF0000;
+            content: '*';
+            position: absolute;
+            left: -6px;
+            font-size: 75%;
+        }
+    }
+    textarea{
+        background: #e5e5e5;
+        border: none;
+        border-radius: 5px;
+        display: block;
+        min-height: 130px;
+        outline: none!important;
+        padding: 6px 0 0 12px;
+        width: 100%;
+    }
+    button{
+        display: table;
+        margin: 26px auto 0;
+    }
+    .categories{
+        .header{
+            font-weight: 600;
+            margin-bottom: 8px;
+            margin-top: 12px
+        }
+    }
+}

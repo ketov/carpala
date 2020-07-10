@@ -1,0 +1,11 @@
+.index{
+    a{
+        color: #007bff;
+        display: block;
+        margin-bottom: 8px;
+        transition: .2s ease;
+        &:hover{
+            color: red;
+        }
+    }
+}

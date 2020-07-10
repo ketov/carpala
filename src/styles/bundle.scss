@@ -1,0 +1,29 @@
+// Bootstrap
+//@import "_bootstrap.scss";
+
+// Owl-carousel
+//@import "../../bower_components/owl.carousel/dist/assets/owl.carousel.css";
+
+@import '_variables.scss';
+
+// Элементы(кнопки, формы и т. д.)
+//@import '_elements.scss';
+
+// Страницы
+//@import 'pages/projects.scss';
+
+// Библиотеки
+@import 'libs/bootstrap.scss';
+@import 'libs/animate.min.scss';
+@import 'libs/swiper.min.scss';
+
+@import '_main.scss';
+
+// Блоки
+@import 'blocks/index.scss';
+@import 'blocks/low-score.scss';
+@import 'blocks/photographer.scss';
+@import 'blocks/problems-money.scss';
+@import 'blocks/rate-ride.scss';
+@import 'blocks/support.scss';
+@import 'blocks/thankyou.scss';
